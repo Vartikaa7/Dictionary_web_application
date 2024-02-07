@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inp{
+    width:375px ;
+    height: 30px;
+    display: flex;
+    border: 1px solid black;
+    overflow: hidden;
+}
+h3{
+    font-size: 3em;
+    font-weight: bold; 
+    margin-bottom: 20px;
+}
+li{
+    font-size: 1em;
+    font-weight: bold; 
+    margin-bottom: 20px;
+}
+input{
+    height: 30px;
+    width: 300px;
+    margin-right: 0px;
+    border: none;
+}
+button{
+    height: 35px;
+    width: 70px;
+    margin-left: 0px;
+    border: none;
+}
+table {
+    width: fit-content;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+.data{
+    margin-top: 10px;
+}
